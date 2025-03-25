@@ -89,33 +89,6 @@ export default function DashboardContent({ collapsed }) {
     },
   ]
 
-  const continueWatching = [
-    {
-      id: 5,
-      title: "Mystic River",
-      type: "Movie",
-      genre: "Drama",
-      progress: 65,
-      image: "/placeholder.svg?height=200&width=350",
-    },
-    {
-      id: 6,
-      title: "Westworld",
-      type: "TV Series",
-      genre: "Sci-Fi",
-      progress: 42,
-      image: "/placeholder.svg?height=200&width=350",
-    },
-    {
-      id: 7,
-      title: "The Crown",
-      type: "TV Series",
-      genre: "Drama",
-      progress: 78,
-      image: "/placeholder.svg?height=200&width=350",
-    },
-  ]
-
   return (
     <div className={cn("flex-1 overflow-auto transition-all duration-300", collapsed ? "ml-16" : "ml-64")}>
       <div className="p-6">
